@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="LabelBase">
+        <item name="android:layout_width">58dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LabelLoginForm" parent="LabelBase">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+    </style>
+
+    <style name="EditTextBase" parent="@style/Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginEnd">17dp</item>
+        <item name="android:layout_marginStart">17dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="EditTextLoginForm" parent="EditTextBase">
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+</resources>

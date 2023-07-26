@@ -9,4 +9,13 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- MainActivity -->
+    <string name="title_email">이메일</string>
+    <string name="msg_email_continue">이메일로 계속하기</string>
+    <string name="msg_search_email">가입 이메일 찾기</string>
+    <string name="msg_search_pw">비밀번호 찾기</string>
+    <string name="title_activity_sign_up_info">SignUpInfoActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
 </resources>
